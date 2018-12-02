@@ -2,26 +2,26 @@
 
 Used to mock server API calls, based on json-server.
 
-### Requirements
+## Requirements
 
 * Node.js latest is recommended.
 
-### Base structure
+## Base structure
 
 * `server.js` - json-server config file;
 * `db.json` - database file.
 
-### Instalation
+## Instalation
 
 `npm install`
 
-### Usage
+## Usage
 
 * `npm run start` - run mock server on http://localhost:3000
 
 Also, you can see subtasks in `package.json`.
 
-### Routes
+## Routes
 
 Based on the `db.json` file, here are all the default routes:
 
@@ -36,7 +36,7 @@ To access and modify resources, you can use any HTTP method:
  
 `GET` `POST` `PUT` `PATCH` `DELETE` `OPTIONS`
 
-### Examples
+## Examples
 
 **Get all cities:**
 
@@ -89,7 +89,7 @@ POST /users
 }
 ```
 
-### Related links
+## Related links
 
 * [Node.js](https://nodejs.org/en/)
 * [NPM](https://www.npmjs.com/)
