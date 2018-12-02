@@ -8,7 +8,7 @@ You need to create HTML-page which consists of the registration form and registe
 
 You are free in choosing instruments and ways of task completion except requirements mentioned in sections below.
 
-Estimated time for this task is 5 working days or 40 hours, missing this deadline will be considered as an uncompleted task.
+Estimated time for this task is `5 working days or 40 hours`, missing this deadline will be considered as an uncompleted task.
 
 ## Where to start from
 
