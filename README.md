@@ -47,7 +47,7 @@ Please use HTML frameworks such as Bootstrap, Material or any other. It will sav
 **Following fields should be validated and accept next values:**
 
 - Name: only letters;
-- Email: only letters, numbers, and `@` sign, only correct email should be accepted (please HTML5 validation);
+- Email: only letters, numbers, and `@` sign, only correct email should be accepted (please use HTML5 validation);
 - Phone Number: only numbers.
 
 **Country, State, City fields:**
