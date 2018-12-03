@@ -83,7 +83,7 @@ Data should be sent to mock-server in JSON format. Don't forget about headers, y
 
 **Anatomy of user object:**
 
-```
+```javascript
 {
   "id": string,
   "name": string,
