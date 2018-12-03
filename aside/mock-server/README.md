@@ -40,8 +40,8 @@ To access and modify resources, you can use any HTTP method:
 
 **Get all cities:**
 
-```
-GET /cities
+```javascript
+// GET /cities
 
 [
     {
@@ -60,8 +60,8 @@ GET /cities
 
 **Get city by ID:**
 
-```
-GET /cities/24
+```javascript
+// GET /cities/24
 
 [
     {
@@ -74,8 +74,8 @@ GET /cities/24
 
 **Add new user:**
 
-```
-POST /users
+```javascript
+// POST /users
 
 {
   "name": "Randolph Franklin",
