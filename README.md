@@ -40,23 +40,66 @@ Please use HTML frameworks such as Bootstrap, Material or any other. It will sav
 
 - Name (required);
 - Email (required);
+- Country (required);
+- State (required);
+- City (required);
 - Phone Number (required);
 - Address (optional);
 - About me (optional).
 
-**Following fields should be validated and accept next values:**
+Please use asterisk symbol for required fields.
+
+**Field types and default values:**
+
+- Name: `<input>`, empty;
+- Email: `<input>`, empty;
+- Country: `<select>`, non-selected;
+- State: `<select>`, non-selected, hidden;
+- City: `<select>`, non-selected, hidden;
+- Phone Number: `<input>`, empty;
+- Address: `<input>`, empty;
+- About me: `<textarea>`, empty.
+
+Empty fields should contain placeholders.
+
+**Following fields should be validated and accept only next values:**
 
 - Name: only letters;
 - Email: only letters, numbers, and `@` sign, only correct email should be accepted (please use HTML5 validation);
-- Phone Number: only numbers.
+- Phone Number: only numbers;
+- About me: maximum length 500.
 
 **Country, State, City fields:**
 
 Data for these fields should be taken from mock-server. Before the country is chosen city and state have to be hidden. After you choose country state appears, after you choose state city appears. It is a strict order.
 
+**Form submitting:**
+
+Form can be submitted only by clicking "Submit" button. Only valid form with all filled required fields can be submitted. Invalid fields should be highlighted.
+
 ## Sending data requirements
 
 Data should be sent to mock-server in JSON format. Don't forget about headers, you should add `Content-Type: application/json` to POST-request.
+
+**Anatomy of user object:**
+
+```
+{
+  "id": string,
+  "name": string,
+  "email": string,
+  "phone_number": string,
+  "address": string,
+  "about_me": string,
+  "country_id": string,
+  "state_id": string,
+  "city_id": string,
+  "createdAt": number
+}
+```
+
+- "id" and "createadAt" will be add automatically by server. 
+- "address" and "about me" should be `null` if empty.
 
 ## User list requirements
 
@@ -75,5 +118,6 @@ List should be updated each time after adding new user.
 * [GitHub Guides](https://guides.github.com/)
 * [Git Book](https://git-scm.com/)
 * [Form data validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
+* [Javascript form validation using regular expressions](http://form.guide/snippets/javascript-form-validation-using-regular-expression.html)
 * [Using XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
 * [API Testing using Postman](https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d)
