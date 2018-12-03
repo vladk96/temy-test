@@ -6,7 +6,9 @@ Basic environment of test task includes mock-server with database for API calls 
 
 You need to create HTML-page which consists of the registration form and registered users list which should be updated after adding new user.
 
-You are free in choosing instruments and ways of task completion except requirements mentioned in sections below.
+You are free in choosing instruments and ways of task completion except requirements mentioned in sections below. 
+
+Please don't use jQuery, some developers believe that jQuery is protecting us from a great demon of browser incompatibility when, in truth, post-IE8, browsers are pretty easy to deal with on their own.
 
 Estimated time for this task is `5 working days or 40 hours`, missing this deadline will be considered as an uncompleted task.
 
@@ -119,5 +121,6 @@ List should be updated each time after adding new user.
 * [Git Book](https://git-scm.com/)
 * [Form data validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
 * [Javascript form validation using regular expressions](http://form.guide/snippets/javascript-form-validation-using-regular-expression.html)
+* [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
 * [Using XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
 * [API Testing using Postman](https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d)
