@@ -49,7 +49,7 @@ To access and modify resources, you can use any HTTP method:
         "name": "Cherkasy",
         "state_id": "1"
     },
-    ...
+    // ...
     {
         "id": "24",
         "name": "Zhytomyr",
