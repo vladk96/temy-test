@@ -22,7 +22,7 @@ For this task you need only the latest version of `Node.js` and `GitHub` account
 
 ## After task completion
 
-After task is finished code should be uploaded to your personal GitHub repository. Link to it should be sent for review.
+After task is finished code should be uploaded to your personal GitHub repository. Link to it should be sent for review. Good commit messages are welcome.
 
 No corrections are allowed after link has been shared with us.
 
