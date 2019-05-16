@@ -1,14 +1,16 @@
 # Temy Test Environment
 
-Basic environment of test task includes mock-server with database for API calls and src folder for written code.
+Basic environment of the test task includes mock-server with database for API calls and src folder for written code.
 
 ## General requirements
 
-You need to create HTML-page which consists of the registration form and registered users list which should be updated after adding new user.
+You need to create a single page application (one HTML-page) which consists of the registration form and registered users list which should be updated after adding a new user.
 
-You are free in choosing instruments and ways of task completion except requirements mentioned in sections below. 
+You are free in choosing instruments and ways of task completion except requirements mentioned in the sections below.
 
 Please don't use jQuery, some developers believe that jQuery is protecting us from a great demon of browser incompatibility when, in truth, post-IE8, browsers are pretty easy to deal with on their own.
+
+The task should be implemented with vanilla JS (JavaScript only) or with React (as a React SPA).
 
 Estimated time for this task is `5 working days or 40 hours`, missing this deadline will be considered as an uncompleted task.
 
@@ -17,7 +19,7 @@ Estimated time for this task is `5 working days or 40 hours`, missing this deadl
 For this task you need only the latest version of `Node.js` and `GitHub` account.
 
 1. Make a copy of the project with command:
-`git clone`;
+   `git clone`;
 2. Get aware of all requirements to this task;
 3. Read the instruction for installation and usage of `mock-server` which is located in README file in `aside/mock-server` folder;
 4. Save your code in `src` folder.
@@ -32,7 +34,7 @@ Before sending please check and test your code carefully. Tasks which don't work
 
 ## HTML page requirements
 
-You can choose any page design which matches your preferences. Page should render correctly on desktop and mobile devices, on latest versions of popular browsers: Edge, Safari, Chrome, Firefox.
+You can choose any page design which matches your preferences. Page should be rendered correctly on desktop and mobile devices, on latest versions of popular browsers: Edge, Safari, Chrome, Firefox.
 
 Please use HTML frameworks such as Bootstrap, Material or any other. It will save your time and make easier task review.
 
@@ -81,7 +83,7 @@ Form can be submitted only by clicking "Submit" button. Only valid form with all
 
 ## Sending data requirements
 
-Data should be sent to mock-server in JSON format. Don't forget about headers, you should add `Content-Type: application/json` to POST-request.
+Data should be sent to the mock-server in JSON format. Don't forget about headers, you should add `Content-Type: application/json` to your POST-request.
 
 **Anatomy of user object:**
 
@@ -100,7 +102,7 @@ Data should be sent to mock-server in JSON format. Don't forget about headers, y
 }
 ```
 
-- "id" and "createadAt" will be add automatically by server. 
+- "id" and "createadAt" will be add automatically by server.
 - "address" and "about me" should be `null` if empty.
 
 ## User list requirements
@@ -117,10 +119,10 @@ List should be updated each time after adding new user.
 
 ## Related links
 
-* [GitHub Guides](https://guides.github.com/)
-* [Git Book](https://git-scm.com/)
-* [Form data validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
-* [Javascript form validation using regular expressions](http://form.guide/snippets/javascript-form-validation-using-regular-expression.html)
-* [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
-* [Using XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
-* [API Testing using Postman](https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d)
+- [GitHub Guides](https://guides.github.com/)
+- [Git Book](https://git-scm.com/)
+- [Form data validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
+- [Javascript form validation using regular expressions](http://form.guide/snippets/javascript-form-validation-using-regular-expression.html)
+- [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+- [Using XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
+- [API Testing using Postman](https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d)
