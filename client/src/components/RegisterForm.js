@@ -144,6 +144,8 @@ const RegisterForm = ({
                 as="textarea"
                 rows="3"
                 name="about"
+                placeholder="Write about yourself..."
+                maxLength="500"
                 value={about}
                 onChange={handleInputChange}
               />
