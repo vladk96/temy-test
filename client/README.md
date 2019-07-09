@@ -1,11 +1,11 @@
-#A test task for the Temy
+# A test task for the Temy
 
-##What I used
+## What I used
 - React and Redux
 - [Bootstrap framework](https://react-bootstrap.github.io/)
 - ESLint & Prettier
 
-##Installation
+## Installation
 
 ```
 git clone https://github.com/vladk96/temy-test.git
